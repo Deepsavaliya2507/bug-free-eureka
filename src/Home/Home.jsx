@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import CRUD from '../Secondpage/Second';
 
 const Home = () => {
   return (
     <div className='heig'>
-      <CRUD />
+      <p>hello !!</p>
+
+      <h1>Click on Second Page</h1>
     </div>
   );
 };

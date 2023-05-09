@@ -7,7 +7,7 @@ export default function Header() {
             <nav class="navbar background">
                 <ul class="nav-list">
                     <div class="logo">
-                        <img src="./img/logo.png" />
+                        <Link to="/Home"><img src="./img/logo.png" /></Link>
                     </div>
                     <li><Link to="/Secondpage">Second-page</Link></li>
                     <li><Link to="/tutorials">Tutorials</Link></li>

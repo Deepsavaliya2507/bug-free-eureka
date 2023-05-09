@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footerpage() {
   return (
-    <div>
+    <div className='heig'>
       Bye
     </div>
   )

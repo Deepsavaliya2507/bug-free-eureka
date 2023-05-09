@@ -14,7 +14,7 @@ function App() {
         {/* <Header /> */}
         <Routes >
           <Route element={<Layout />} >
-            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
             <Route path="/Secondpage" element={<Second />} />
             <Route path="/Footerpage" element={<Footerpage />} />
           </Route>
